@@ -1,0 +1,129 @@
+/*HTML and Body*/
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    /*background-image: url("../images/clouds_bg.jpg");*/
+    background-color: #faeded;
+    /*backdrop-filter: blur(14px);*/
+    font-family: "Gilroy";
+}
+
+.container {
+    
+}
+
+
+
+/*Segments*/
+.welcome-segment, .about-segment, .contacts-segment {
+    height: 80vh;
+}
+
+
+
+/*Welcome segment*/
+.welcome-segment {
+    margin-top: 180px;
+}
+
+.welcome-segment .title {
+    height: 180px;
+    font-size: 150px;
+    font-weight: 700;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    user-select: none;
+
+}
+
+.subtitle {
+    font-size: 38px;
+    font-weight: 500;
+    text-align: center;
+    user-select: none;
+}
+
+.to-goods-button-area {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.to-goods-button {
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 6px 20px 6px 20px;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.20);
+    border: 2px solid #a64242;
+    color: #a64242;
+    background-color: #faeded;
+    transition: all 0.2s ease-in-out;
+}
+
+.to-goods-button:hover {
+    border: 2px solid #a64242;
+    color: #faeded;
+    background-color: #a64242;
+}
+
+.scroll-down-icon-area {
+    display: flex;
+    justify-content: center;
+    margin-top: 240px;
+}
+
+.scroll-down-icon {
+    height: 40px;
+    user-select: none;
+}
+
+.down-arrow-icon-area{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.down-arrow-icon {
+    height: 20px;
+    user-select: none;
+}
+
+
+
+/*About segment*/
+.about-segment {
+    margin: 10vh 60px 10vh 60px;
+}
+
+.about-segment .title {
+    font-size: 50px;
+    font-weight: 500;
+    margin: 0;
+}
+
+
+/*.vertical-line {*/
+/*    height: 60vh;*/
+/*    border-left: 2px solid black;*/
+/*    position: relative;*/
+/*    top: -100px;*/
+/*    margin-top: 60px;*/
+/*    margin-left: 50%;*/
+/*}*/
+
+
+
+/*Footer*/
+footer {
+    /*background-color: #F0F8FF;*/
+    width: 100%;
+    height: 200px;
+    padding: 20px;
+    color: black;
+    text-align: center;
+}

@@ -1,0 +1,57 @@
+/*Services segment*/
+.services-segment {
+    margin: 10vh 60px 10vh 60px;
+}
+
+.services-segment .title {
+    color: #a64242;
+    font-size: 50px;
+    font-weight: 500;
+    margin: 0;
+    text-align: center;
+}
+
+.service-1, .service-2, .service-3, .service-4, .service-5 {
+    background-color: white;
+    height: 50vh;
+    width: 15vw;
+    margin: 2rem 1rem 2rem 1rem;
+    padding: 2rem 2rem 2rem 2rem;
+    border-radius: 10px;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.2);
+    /*transition: all 0.3s ease-in-out;*/
+    text-align: center;
+    font-size: 3vmin;
+    font-weight: 500;
+    display: inline-block;
+}
+
+.service-1:hover, .service-2:hover, .service-3:hover, .service-4:hover, .service-5:hover {
+    /*border: 1px solid rgb(153, 225, 227);*/
+}
+
+.service-icon {
+    height: 160px;
+    margin: 2rem 1rem 3rem 1rem;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    /*background-color: #5161ce;*/
+    border-radius: 50%;
+    user-select: none;
+
+}
+
+.service-info {
+    margin: 2rem 1rem 1rem 1rem;
+}
+
+.service-in-card {
+    /*border: 2px solid #a64242;*/
+    background-color: #faeded;
+    border-radius: 10px;
+    height: 200px;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
