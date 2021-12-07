@@ -7,16 +7,16 @@
     color: #a64242;
     font-size: 50px;
     font-weight: 500;
-    margin: 0;
+    margin: 0 0 20px 0;
     text-align: center;
 }
 
 .service-1, .service-2, .service-3, .service-4, .service-5 {
     background-color: white;
-    height: 50vh;
-    width: 15vw;
-    margin: 2rem 1rem 2rem 1rem;
-    padding: 2rem 2rem 2rem 2rem;
+    height: 30vh;
+    width: 100%;
+    margin: 20px 0 20px 0;
+    /*padding: 2rem 2rem 2rem 2rem;*/
     border-radius: 10px;
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.2);
     /*transition: all 0.3s ease-in-out;*/
@@ -31,24 +31,35 @@
 }
 
 .service-icon {
-    height: 160px;
+    cursor: pointer;
+    height: 140px;
     margin: 2rem 1rem 3rem 1rem;
-    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
-    /*background-color: #5161ce;*/
+    /*padding: 0.5rem 0.5rem 0.5rem 0.5rem;*/
+    border: 4px solid #a64242;
     border-radius: 50%;
     user-select: none;
+    transition: 0.2s all ease-in-out;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.20);
+}
 
+.service-icon:hover {
+    transform: scale(1.5);
+}
+
+.service-container {
+    display: flex;
+    justify-content: center;
 }
 
 .service-info {
-    margin: 2rem 1rem 1rem 1rem;
+    /*margin: 2rem 1rem 1rem 1rem;*/
 }
 
-.service-in-card {
+.service-info-card {
     /*border: 2px solid #a64242;*/
     background-color: #faeded;
     border-radius: 10px;
-    height: 200px;
+    /*height: 100px;*/
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.2);
     display: flex;
     justify-content: center;

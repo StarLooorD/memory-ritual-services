@@ -12,13 +12,13 @@ body {
 }
 
 .container {
-    
+
 }
 
 
 
 /*Segments*/
-.welcome-segment, .about-segment, .contacts-segment {
+.welcome-segment, .about-segment, .services-segment, .contacts-segment {
     height: 80vh;
 }
 
@@ -61,7 +61,7 @@ body {
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.20);
     border: 2px solid #a64242;
     color: #a64242;
-    background-color: #faeded;
+    background-color: #faf7f7;
     transition: all 0.2s ease-in-out;
 }
 

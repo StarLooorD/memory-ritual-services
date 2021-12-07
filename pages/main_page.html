@@ -25,8 +25,9 @@
     <a class="navbar-brand navbar-logo" href="#">Пам'ять</a>
     <div class="navbar-nav">
         <a class="nav-item nav-link" href="#">Головна</a>
+        <a class="nav-item nav-link" href="#goods-segment">Товари</a>
         <a class="nav-item nav-link" href="#services-segment">Послуги</a>
-        <a class="nav-item nav-link" href="#">Товари</a>
+        <a class="nav-item nav-link" href="catalog_page.html#">Каталог</a>
         <a href="#contacts-segment"><button class="btn contacts-nav-button nav-item" type="button">Контакти</button></a>
     </div>
 </nav>
@@ -36,7 +37,7 @@
     <p class="title">Пам'ять</p>
     <p class="subtitle">Ритуальні послуги</p>
     <div class="to-goods-button-area">
-        <button class="to-goods-button">До товарів</button>
+        <a href="catalog_page.html"><button class="to-goods-button">До товарів</button></a>
     </div>
     <div class="scroll-down-icon-area">
         <img src="../icons/mouse.png" class="scroll-down-icon" alt="scroll down"/>
@@ -91,7 +92,7 @@
                     <img class="d-block w-100" src="https://placeimg.com/1080/500/nature" alt="Third slide">
                     <div class="carousel-caption d-none d-md-block">
                         <h5 class="carousel-caption-title">Вінки</h5>
-                        <p class="carousel-caption-desc">Вінки з живих квітів(за індивідуальним побажанням клієнта, штучні вінки(кордони,поки,надгробки)</p>
+                        <p class="carousel-caption-desc">Вінки з живих квітів(за індивідуальним побажанням клієнта, штучні вінки(корзини,поки,надгробки)</p>
                     </div>
                 </div>
                 <div class="carousel-item">
@@ -135,42 +136,131 @@
     <p class="title">Послуги, які ми надаємо:</p>
 
     <div class="container">
-        <div class="row services-container">
-            <div class="col service-1">
-                <img src="../icons/morgue.png" class="service-icon" alt=""/>
-                <div class="service-in-card">
-                    <p class="service-info">Транспортування тіла покійного в морг</p>
-                </div>
+
+        <div class="row">
+
+            <div class="col">
+                <a data-toggle="collapse" href="#collapseService1" role="button" aria-expanded="false" aria-controls="collapseExample">
+                    <img src="../icons/morgue.png" class="service-icon" alt=""/>
+                </a>
             </div>
 
-            <div class="col service-2">
-                <img src="../icons/funeral_doc.png" class="service-icon" alt=""/>
-                <div class="service-in-card">
-                    <p class="service-info">Допомога з оформленням свідоцтва про смерть</p>
-                </div>
+
+            <div class="col">
+                <a data-toggle="collapse" href="#collapseService2" role="button" aria-expanded="false" aria-controls="collapseExample">
+                    <img src="../icons/funeral_doc.png" class="service-icon" alt=""/>
+                </a>
             </div>
 
-            <div class="col service-3">
-                <img src="../icons/chapel.png" class="service-icon" alt=""/>
-                <div class="service-in-card">
-                    <p class="service-info">Організація каплички та священика</p>
-                </div>
+            <div class="col">
+                <a data-toggle="collapse" href="#collapseService3" role="button" aria-expanded="false" aria-controls="collapseExample">
+                    <img src="../icons/chapel.png" class="service-icon" alt=""/>
+                </a>
             </div>
 
-            <div class="col service-4">
-                <img src="../icons/grave.png" class="service-icon" alt=""/>
-                <div class="service-in-card">
-                    <p class="service-info">Організація поховань померлих на кладовищі</p>
-                </div>
+            <div class="col">
+                <a data-toggle="collapse" href="#collapseService4" role="button" aria-expanded="false" aria-controls="collapseExample">
+                    <img src="../icons/grave.png" class="service-icon" alt=""/>
+                </a>
             </div>
 
-            <div class="col service-5">
-                <img src="../icons/funeral_car.png" class="service-icon" alt=""/>
-                <div class="service-in-card">
-                    <p class="service-info">Вантажники та катафалки різного класу та цінової категорії</p>
-                </div>
+            <div class="col">
+                <a data-toggle="collapse" href="#collapseService5" role="button" aria-expanded="false" aria-controls="collapseExample">
+                    <img src="../icons/funeral_car.png" class="service-icon" alt=""/>
+                </a>
+            </div>
+
+            <div class="col">
+                <a data-toggle="collapse" href="#collapseService6" role="button" aria-expanded="false" aria-controls="collapseExample">
+                    <img src="../icons/funeral_car.png" class="service-icon" alt=""/>
+                </a>
             </div>
         </div>
+
+        <div class="collapse" id="collapseService1">
+            <div class="card card-body">
+                Транспортування тіла покійного в морг
+            </div>
+        </div>
+
+        <div class="collapse" id="collapseService2">
+            <div class="card card-body">
+                Допомога з оформленням свідоцтва про смерть
+            </div>
+        </div>
+
+        <div class="collapse" id="collapseService3">
+            <div class="card card-body">
+                Організація каплички та священика
+            </div>
+        </div>
+
+        <div class="collapse" id="collapseService4">
+            <div class="card card-body">
+                Організація поховань померлих на кладовищі
+            </div>
+        </div>
+
+        <div class="collapse" id="collapseService5">
+            <div class="card card-body service-info-card">
+                Вантажники та катафалки різного класу та цінової категорії
+            </div>
+        </div>
+
+        <div class="collapse" id="collapseService6">
+            <div class="card card-body">
+                Вантажники та катафалки різного класу та цінової категорії
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--        <div class="row services-container">-->
+<!--            <div class="service-1">-->
+<!--                <img src="../icons/morgue.png" class="service-icon" alt=""/>-->
+<!--                <div class="service-in-card">-->
+<!--                    <p class="service-info">Транспортування тіла покійного в морг</p>-->
+<!--                </div>-->
+<!--            </div>-->
+
+<!--            <div class="service-2">-->
+<!--                <img src="../icons/funeral_doc.png" class="service-icon" alt=""/>-->
+<!--                <div class="service-in-card">-->
+<!--                    <p class="service-info">Допомога з оформленням свідоцтва про смерть</p>-->
+<!--                </div>-->
+<!--            </div>-->
+
+<!--            <div class="service-3">-->
+<!--                <img src="../icons/chapel.png" class="service-icon" alt=""/>-->
+<!--                <div class="service-in-card">-->
+<!--                    <p class="service-info">Організація каплички та священика</p>-->
+<!--                </div>-->
+<!--            </div>-->
+
+<!--            <div class="service-4">-->
+<!--                <img src="../icons/grave.png" class="service-icon" alt=""/>-->
+<!--                <div class="service-in-card">-->
+<!--                    <p class="service-info">Організація поховань померлих на кладовищі</p>-->
+<!--                </div>-->
+<!--            </div>-->
+
+<!--            <div class="service-5">-->
+<!--                <img src="../icons/funeral_car.png" class="service-icon" alt=""/>-->
+<!--                <div class="service-in-card">-->
+<!--                    <p class="service-info">Вантажники та катафалки різного класу та цінової категорії</p>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
     </div>
 </div>
 
@@ -181,7 +271,7 @@
     <div class="container">
         <div class="row contacts-area">
             <div class="col-8">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2574.2631848334318!2d24.068614815569557!3d49.8187184793932!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473ac2a918423dd5%3A0x2ab05e9641d64b00!2z0LLRg9C70LjRhtGPINCo0LDRhNCw0YDQuNC60LAsIDYsINCb0YzQstGW0LIsINCb0YzQstGW0LLRgdGM0LrQsCDQvtCx0LvQsNGB0YLRjCwgNzkwMDA!5e0!3m2!1suk!2sua!4v1636994038275!5m2!1suk!2sua"
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2573.5593839252306!2d24.042454715866743!3d49.83194603961706!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add43576f8583%3A0x1a29d9ce8af96c56!2z0LLRg9C70LjRhtGPINCa0L7RgdGC0Y8g0JvQtdCy0LjRhtGM0LrQvtCz0L4sIDcxLCDQm9GM0LLRltCyLCDQm9GM0LLRltCy0YHRjNC60LAg0L7QsdC70LDRgdGC0YwsIDc5MDAw!5e0!3m2!1suk!2sua!4v1638881628185!5m2!1suk!2sua"
                         class="google-map-location"
                         allowfullscreen=""
                         loading="lazy">
@@ -193,8 +283,8 @@
                         <img class="phone-icon" src="../icons/phone.png" alt=""/>
                     </div>
                     <div class="col-10">
-                        <a href="tel: +380673736436" class="contact-number-1">+38 (067) 37 36 436</a>
-                        <span class="contact-name-1">Тарас</span>
+                        <a href="tel: +380673736436" class="contact-number-1">+38 (067) 67 30 364</a>
+                        <span class="contact-name-1">Максим</span>
                     </div>
                 </div>
                 <div class="row contact-data-card-2">
@@ -202,14 +292,14 @@
                         <img class="phone-icon" src="../icons/phone.png" alt=""/>
                     </div>
                     <div class="col-10">
-                        <a href="tel: +380673736436" class="contact-number-2">+38 (067) 37 36 436</a>
-                        <span class="contact-name-2">Тарас</span>
+                        <a href="tel: +380673736436" class="contact-number-2">+38 (098) 24 96 050</a>
+                        <span class="contact-name-2">Ірина</span>
                     </div>
                 </div>
                 <div class="contact-data-card-3">
                     <div class="email-data">
                         <img class="email-icon" src="../icons/email.png" alt=""/>
-                        <a href="mailto: tarash281@gmail.com" class="contact-email">someemail@gmail.com</a>
+                        <a href="mailto: tarash281@gmail.com" class="contact-email">memory.ritual.lviv@gmail.com</a>
                     </div>
                     <div class="sn-links">
                         <a href="https://t.me/+380982496050"><img class="telegram-icon" src="../icons/telegram.svg" alt=""></a>
@@ -231,8 +321,8 @@
 </div>
 <footer>
     <p>&copy; Ритуальні послуги "Пам'ять" | 2021-2022 | Усі права захищено</p>
-    <p>Телефон: +380673736436, +380673736436</p>
-    <p>Пошта: someemail@gmail.com</p>
+    <p>Телефон: +38 (067) 67 30 364, +38 (098) 24 96 050</p>
+    <p>Пошта: memory.ritual.lviv@gmail.com</p>
     <p>Розробка сайту: +380673736436, tarash281@gmail.com</p>
 </footer>
 
