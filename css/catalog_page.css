@@ -13,7 +13,6 @@ body {
 
 .catalog-body {
     margin-top: 160px;
-    scroll-behavior: smooth;
 }
 
 .my-container {
@@ -31,6 +30,7 @@ body {
     overflow-y: scroll;
     padding: 20px;
     height: 80vh;
+    scroll-behavior: smooth;
 }
 
 .catalog-items::-webkit-scrollbar {

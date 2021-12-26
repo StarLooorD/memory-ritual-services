@@ -1,6 +1,7 @@
 /*Goods segment*/
 .goods-segment {
-    margin: 10vh 60px 10vh 60px;
+    margin: 2vh 60px 10vh 60px;
+    padding-top: 10vh;
 }
 
 .goods-segment .title {
