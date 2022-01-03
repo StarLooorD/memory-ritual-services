@@ -18,7 +18,7 @@ body {
 
 
 /*Segments*/
-.welcome-segment, .about-segment, .services-segment, .contacts-segment {
+.welcome-segment, .about-segment, .contacts-segment {
     height: 80vh;
 }
 
@@ -37,7 +37,6 @@ body {
     padding: 0;
     margin: 0;
     user-select: none;
-
 }
 
 .subtitle {

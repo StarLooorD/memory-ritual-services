@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <title>Пам'ять - Головна</title>
-    <link rel="shortcut icon" href="../icons/coffin.png" type="image/png">
+    <link rel="shortcut icon" href="icons/coffin.png" type="image/png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link href = "../fonts/stylesheet.css" rel = "stylesheet" type = "text/css" />
-    <link rel="stylesheet" href="../css/navbar.css">
-    <link rel="stylesheet" href="../css/index.css">
-    <link rel="stylesheet" href="../css/services_segment.css">
-    <link rel="stylesheet" href="../css/contacts_segment.css">
-    <link rel="stylesheet" href="../css/goods_segment.css">
+    <link href = "fonts/stylesheet.css" rel = "stylesheet" type = "text/css" />
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/services_segment.css">
+    <link rel="stylesheet" href="css/contacts_segment.css">
+    <link rel="stylesheet" href="css/goods_segment.css">
 </head>
 <body>
 
@@ -39,11 +39,11 @@
         <a href="catalog_page.html"><button class="to-goods-button">До товарів</button></a>
     </div>
     <div class="scroll-down-icon-area">
-        <img src="../icons/mouse.png" class="scroll-down-icon" alt="scroll down"/>
+        <img src="icons/mouse.png" class="scroll-down-icon" alt="scroll down"/>
 
     </div>
     <div class="down-arrow-icon-area">
-        <img src="../icons/down-arrow.png" class="down-arrow-icon" alt="scroll down"/>
+        <img src="icons/down-arrow.png" class="down-arrow-icon" alt="scroll down"/>
     </div>
 
 
@@ -135,92 +135,46 @@
     <p class="title">Послуги, які ми надаємо:</p>
 
     <div class="container">
-
         <div class="row">
-
-            <div class="col">
-                <a data-toggle="collapse" href="#collapseService1" role="button" aria-expanded="false" aria-controls="collapseExample">
-                    <img src="../icons/morgue.png" class="service-icon" alt=""/>
-                </a>
+            <div class="col-4">
+                <img src="icons/morgue.png" class="service-icon service-icon-left" alt=""/>
             </div>
-
-
-            <div class="col">
-                <a data-toggle="collapse" href="#collapseService2" role="button" aria-expanded="false" aria-controls="collapseExample">
-                    <img src="../icons/funeral_doc.png" class="service-icon" alt=""/>
-                </a>
-            </div>
-
-            <div class="col">
-                <a data-toggle="collapse" href="#collapseService3" role="button" aria-expanded="false" aria-controls="collapseExample">
-                    <img src="../icons/chapel.png" class="service-icon" alt=""/>
-                </a>
-            </div>
-
-            <div class="col">
-                <a data-toggle="collapse" href="#collapseService4" role="button" aria-expanded="false" aria-controls="collapseExample">
-                    <img src="../icons/grave.png" class="service-icon" alt=""/>
-                </a>
-            </div>
-
-            <div class="col">
-                <a data-toggle="collapse" href="#collapseService5" role="button" aria-expanded="false" aria-controls="collapseExample">
-                    <img src="../icons/funeral_car.png" class="service-icon" alt=""/>
-                </a>
-            </div>
-
-            <div class="col">
-                <a data-toggle="collapse" href="#collapseService6" role="button" aria-expanded="false" aria-controls="collapseExample">
-                    <img src="../icons/funeral_car.png" class="service-icon" alt=""/>
-                </a>
+            <div class="col-6">
+                <p class="service-info service-info-right">Транспортування тіла покійного в морг</p>
             </div>
         </div>
-
-        <div class="collapse" id="collapseService1">
-            <div class="card card-body">
-                Транспортування тіла покійного в морг
+        <div class="row">
+            <div class="col-6">
+                <p class="service-info service-info-left">Допомога з оформленням свідоцтва про смерть</p>
+            </div>
+            <div class="col-4">
+                <img src="icons/funeral_doc.png" class="service-icon service-icon-right" alt=""/>
             </div>
         </div>
-
-        <div class="collapse" id="collapseService2">
-            <div class="card card-body">
-                Допомога з оформленням свідоцтва про смерть
+        <div class="row">
+            <div class="col-4">
+                <img src="icons/chapel.png" class="service-icon service-icon-left" alt=""/>
+            </div>
+            <div class="col-6">
+                <p class="service-info service-info-right">Організація каплички та священика</p>
             </div>
         </div>
-
-        <div class="collapse" id="collapseService3">
-            <div class="card card-body">
-                Організація каплички та священика
+        <div class="row">
+            <div class="col-6">
+                <p class="service-info service-info-left">Організація поховань померлих на кладовищі</p>
+            </div>
+            <div class="col-4">
+                <img src="icons/grave.png" class="service-icon service-icon-right" alt=""/>
             </div>
         </div>
-
-        <div class="collapse" id="collapseService4">
-            <div class="card card-body">
-                Організація поховань померлих на кладовищі
+        <div class="row">
+            <div class="col-4">
+                <img src="icons/funeral_car.png" class="service-icon service-icon-left" alt=""/>
+            </div>
+            <div class="col-6">
+                <p class="service-info service-info-right">Вантажники та катафалки різного класу та цінової категорії</p>
             </div>
         </div>
-
-        <div class="collapse" id="collapseService5">
-            <div class="card card-body service-info-card">
-                Вантажники та катафалки різного класу та цінової категорії
-            </div>
-        </div>
-
-        <div class="collapse" id="collapseService6">
-            <div class="card card-body">
-                Вантажники та катафалки різного класу та цінової категорії
-            </div>
-        </div>
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -277,32 +231,31 @@
                 </iframe>
             </div>
             <div class="col-4 contacts-data">
-                <div class="row contact-data-card-1">
-                    <div class="col-2">
-                        <img class="phone-icon" src="../icons/phone.png" alt=""/>
+                <div class="container">
+                    <div class="row contact-data-card-1">
+                        <div class="col-2">
+                            <img class="phone-icon" src="icons/phone.png" alt=""/>
+                        </div>
+                        <div class="col-10">
+                            <a href="tel: +380673736436" class="contact-number-1">+38 (067) 67 30 364</a>
+                            <span class="contact-name-1">Максим</span>
+                        </div>
                     </div>
-                    <div class="col-10">
-                        <a href="tel: +380673736436" class="contact-number-1">+38 (067) 67 30 364</a>
-                        <span class="contact-name-1">Максим</span>
+                    <div class="row contact-data-card-2">
+                        <div class="col-2">
+                            <img class="phone-icon" src="icons/phone.png" alt=""/>
+                        </div>
+                        <div class="col-10">
+                            <a href="tel: +380673736436" class="contact-number-2">+38 (098) 24 96 050</a>
+                            <span class="contact-name-2">Ірина</span>
+                        </div>
                     </div>
-                </div>
-                <div class="row contact-data-card-2">
-                    <div class="col-2">
-                        <img class="phone-icon" src="../icons/phone.png" alt=""/>
-                    </div>
-                    <div class="col-10">
-                        <a href="tel: +380673736436" class="contact-number-2">+38 (098) 24 96 050</a>
-                        <span class="contact-name-2">Ірина</span>
-                    </div>
-                </div>
-                <div class="contact-data-card-3">
-                    <div class="email-data">
-                        <img class="email-icon" src="../icons/email.png" alt=""/>
-                        <a href="mailto: tarash281@gmail.com" class="contact-email">memory.ritual.lviv@gmail.com</a>
-                    </div>
-                    <div class="sn-links">
-                        <a href="https://t.me/+380982496050"><img class="telegram-icon" src="../icons/telegram.svg" alt=""></a>
-                        <a href="viber://chat?number=380673736436"><img class="viber-icon" src="../icons/viber.png" alt=""></a>
+                    <div class="contact-data-card-3">
+                        <div class="sn-links">
+                            <a href="mailto: tarash281@gmail.com"><img class="email-icon" src="icons/email.png" alt=""/></a>
+                            <a href="https://t.me/+380982496050"><img class="telegram-icon" src="icons/telegram.svg" alt=""></a>
+                            <a href="viber://chat?number=380673736436"><img class="viber-icon" src="icons/viber.png" alt=""></a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -324,6 +277,30 @@
     <p>Пошта: memory.ritual.lviv@gmail.com</p>
     <p>Розробка сайту: +380673736436, tarash281@gmail.com</p>
 </footer>
+
+<script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.1/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.6.1/firebase-analytics.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+        apiKey: "AIzaSyDp2hiNr140akd3O3P3_qi2aFMZ09WiOmY",
+        authDomain: "memory-lviv.firebaseapp.com",
+        projectId: "memory-lviv",
+        storageBucket: "memory-lviv.appspot.com",
+        messagingSenderId: "994729556449",
+        appId: "1:994729556449:web:7f280f548f5079b90dfaa0",
+        measurementId: "G-Y7Z85WLQ63"
+    };
+
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+</script>
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
