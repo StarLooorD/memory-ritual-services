@@ -12,11 +12,31 @@ body {
 }
 
 .catalog-body {
-    margin-top: 160px;
+    margin-top: 8em;
 }
 
-.my-container {
-    margin: 0 200px 0 200px;
+@media screen and (min-device-width: 320px) and (max-device-width: 768px) {
+    .catalog-segment-container {
+        margin: 0 0 0 0;
+    }
+
+    .category-nav {
+        visibility: hidden;
+    }
+}
+
+
+@media screen and (min-device-width: 769px) and (max-device-width: 1200px) {
+    .catalog-segment-container {
+        margin: 0 8em 0 8em;
+    }
+}
+
+
+@media screen and (min-device-width: 1201px) {
+    .catalog-segment-container {
+        margin: 0 10em 0 10em;
+    }
 }
 
 
@@ -28,7 +48,7 @@ body {
 /* hide scrollbar but allow scrolling */
 .catalog-items {
     overflow-y: scroll;
-    padding: 20px;
+    padding: 2em;
     height: 80vh;
     scroll-behavior: smooth;
 }
@@ -42,14 +62,14 @@ body {
 }
 
 .category-title {
-    font-size: 40px;
+    font-size: 3em;
     font-weight: 500;
     color: #a64242;
-    margin-left: 40px;
+    margin-left: 1em;
 }
 
 .list-group-item {
-    font-size: 20px;
+    font-size: 1.4em;
     font-weight: 500;
     color: #a64242;
     background-color: #faf7f7;
