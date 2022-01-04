@@ -15,13 +15,10 @@ body {
 
 }
 
-
-
 /*Segments*/
-.welcome-segment, .about-segment, .contacts-segment {
-    height: 80vh;
-}
-
+/*.welcome-segment, .about-segment {*/
+/*    height: 80vh;*/
+/*}*/
 
 
 /*Welcome segment*/
@@ -73,22 +70,22 @@ body {
 .scroll-down-icon-area {
     display: flex;
     justify-content: center;
-    margin-top: 240px;
+    margin-top: 10vh;
 }
 
 .scroll-down-icon {
-    height: 40px;
+    height: 30px;
     user-select: none;
 }
 
 .down-arrow-icon-area{
     display: flex;
     justify-content: center;
-    margin-top: 10px;
+    margin-top: 6px;
 }
 
 .down-arrow-icon {
-    height: 20px;
+    height: 16px;
     user-select: none;
 }
 

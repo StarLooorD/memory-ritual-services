@@ -1,0 +1,55 @@
+.modal-title {
+    font-size: 26px;
+    font-weight: 500;
+}
+
+.modal-close-button {
+    border-radius: 10px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 6px 20px 6px 20px;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.10);
+    border: 2px solid #a64242;
+    color: #a64242;
+    background-color: #faeded;
+    transition: all 0.1s ease-in-out;
+}
+
+.modal-close-button:hover {
+    border: 2px solid #a64242;
+    color: #faeded;
+    background-color: #a64242;
+}
+
+.modal-content {
+    color: #a64242;
+    /*width: 800px;*/
+    /*height: 400px;*/
+    background-color: #faf7f7;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.20);
+    /*border: 2px solid #a64242;*/
+}
+
+.modal-body {
+    padding: 2em 3em 2em 3em;
+}
+
+.contact-number-1, .contact-number-2 {
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+    color: black;
+}
+
+.contact-number-1:hover, .contact-number-2:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+.contact-name-1, .contact-name-2 {
+    font-size: 20px;
+    font-weight: 400;
+}
