@@ -8,6 +8,7 @@
     background-color: #faf7f7;
     height: 40vh;
     width: 20vw;
+    margin: 1.5em 1.5em 1.5em 1.5em;
     border-radius: 10px;
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.2);
     cursor: pointer;
@@ -18,32 +19,8 @@
     transition: 0.3s all ease-in-out;
 }
 
-.service-1 {
-    margin: 0 1.5em 1em 0;
-}
-
-.service-2 {
-    margin: 0 1.5em 1.5em 1.5em;
-}
-
-.service-3 {
-    margin: 0 0 1.5em 1.5em;
-}
-
-.service-4 {
-    margin: 1.5em 1.5em 0 0;
-}
-
-.service-5 {
-    margin: 1.5em 1.5em 0 1.5em;
-}
-
-.service-6 {
-    margin: 1.5em 0 0 1.5em;
-}
-
 .service-1:hover, .service-2:hover, .service-3:hover, .service-4:hover, .service-5:hover, .service-6:hover {
-    transform: scale(1.15);
+    transform: scale(1.1);
 }
 
 .service-icon {
@@ -68,7 +45,7 @@
 .service-info {
     color: #a64242;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 1em;
 }
 
 .service-in-card {

@@ -14,58 +14,53 @@
 }
 
 .contact-data-card-1, .contact-data-card-2 {
-    /*background-color: white;*/
-    height: 100%;
-    /*width: 100%;*/
+    background-color: #faf7f7;
     margin: 0 0 0 0;
     padding: 1rem;
     border-radius: 10px;
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.2);
     /*transition: all 0.3s ease-in-out;*/
     text-align: center;
-    backdrop-filter: blur(14px);
 }
 
 .contact-data-card-3 {
-    /*background-color: white;*/
-    /*height: 20%;*/
-    /*width: 100%;*/
+    background-color: #faf7f7;
     padding: 1rem;
     border-radius: 10px;
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.2);
     /*transition: all 0.3s ease-in-out;*/
     text-align: center;
-    backdrop-filter: blur(14px);
 }
 
-.contact-number-1, .contact-number-2, .contact-email {
+.contact-number-1, .contact-number-2 {
     margin: 0.5rem;
-    font-size: 26px;
+    font-size: 1.5em;
     font-weight: 400;
     text-decoration: none;
-    color: black;
+    color: #a64242;
     display: inline-block;
 }
 
 .contact-number-1:hover, .contact-number-2:hover, .contact-email:hover {
     text-decoration: underline;
-    color: black;
+    color: #a64242;
 }
 
 .contact-name-1, .contact-name-2 {
-    font-size: 24px;
+    font-size: 1.4em;
     font-weight: 400;
     display: block;
+    color: #a64242;
 }
 
 .phone-icon {
-    height: 2.5vw;
+    height: 2.6vw;
     min-height: 20px;
     margin: 2rem;
 }
 
 .email-icon, .telegram-icon, .viber-icon{
-    height: 2.5vw;
+    height: 2.4vw;
     min-height: 20px;
     cursor: pointer;
     margin: 1rem;
@@ -75,9 +70,4 @@
 
 .email-icon:hover, .telegram-icon:hover, .viber-icon:hover{
     transform: scale(1.3);
-}
-
-.sn-label {
-    font-size: 18px;
-    font-weight: 400;
 }

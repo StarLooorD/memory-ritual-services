@@ -105,19 +105,26 @@ body {
 
 .welcome-segment .title {
     height: 180px;
-    font-size: 150px;
+    font-size: 10em;
     font-weight: 700;
     text-align: center;
     padding: 0;
     margin: 0;
     user-select: none;
+    /*color: #a64242;*/
+    background: -webkit-linear-gradient(#000000, #a64242);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .subtitle {
-    font-size: 38px;
+    font-size: 2.5em;
     font-weight: 500;
     text-align: center;
     user-select: none;
+    background: -webkit-linear-gradient(#a64242, #000000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .to-goods-button-area {
@@ -189,6 +196,23 @@ body {
     margin: 0 4vw 2vh 4vw;
     color: #a64242;
 }
+
+.welcome-segment-image-1 {
+    position: absolute;
+    top: 100px;
+    right: 300px;
+    z-index: 0;
+    width: 16vw;
+}
+
+.welcome-segment-image-2 {
+    position: absolute;
+    top: 300px;
+    left: 100px;
+    z-index: 0;
+    width: 20vw;
+}
+
 
 
 /*!*About segment*!*/
