@@ -1,13 +1,22 @@
-/*!* hide scrollbar but allow scrolling *!*/
-/*body {*/
-/*    -ms-overflow-style: none; !* for Internet Explorer, Edge *!*/
-/*    scrollbar-width: none; !* for Firefox *!*/
-/*    overflow-y: scroll;*/
-/*}*/
+/* width */
+::-webkit-scrollbar {
+    width: 14px;
+}
 
-/*body::-webkit-scrollbar {*/
-/*    display: none; !* for Chrome, Safari, and Opera *!*/
-/*}*/
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
 
 /*HTML and Body*/
 html {
