@@ -1,6 +1,6 @@
 /*Services segment*/
 .services-segment {
-    margin: 2vh 60px 10vh 60px;
+    margin: 2vh 0 4vh 0;
     padding-top: 10vh;
 }
 
@@ -12,47 +12,60 @@
     text-align: center;
 }
 
-.service-1, .service-2, .service-3, .service-4, .service-5 {
-    background-color: white;
-    height: 30vh;
-    width: 100%;
-    margin: 20px 0 20px 0;
-    /*padding: 2rem 2rem 2rem 2rem;*/
+.service-1, .service-2, .service-3, .service-4, .service-5, .service-6 {
+    background-color: #faf7f7;
+    height: 40vh;
+    width: 20vw;
     border-radius: 10px;
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.2);
-    /*transition: all 0.3s ease-in-out;*/
+    cursor: pointer;
     text-align: center;
     font-size: 3vmin;
     font-weight: 500;
     display: inline-block;
+    transition: 0.3s all ease-in-out;
 }
 
-.service-1:hover, .service-2:hover, .service-3:hover, .service-4:hover, .service-5:hover {
-    /*border: 1px solid rgb(153, 225, 227);*/
+.service-1 {
+    margin: 0 1.5em 1em 0;
+}
+
+.service-2 {
+    margin: 0 1.5em 1.5em 1.5em;
+}
+
+.service-3 {
+    margin: 0 0 1.5em 1.5em;
+}
+
+.service-4 {
+    margin: 1.5em 1.5em 0 0;
+}
+
+.service-5 {
+    margin: 1.5em 1.5em 0 1.5em;
+}
+
+.service-6 {
+    margin: 1.5em 0 0 1.5em;
+}
+
+.service-1:hover, .service-2:hover, .service-3:hover, .service-4:hover, .service-5:hover, .service-6:hover {
+    transform: scale(1.15);
 }
 
 .service-icon {
     cursor: pointer;
-    height: 200px;
-    margin: 2rem 1rem 3rem 1rem;
-    /*padding: 0.5rem 0.5rem 0.5rem 0.5rem;*/
-    border: 4px solid #a64242;
-    border-radius: 10px;
+    height: 5.5em;
+    background-color: #faeded;
+    margin: 2em 1em 1em 1em;
+    border-radius: 50%;
     user-select: none;
     transition: 0.2s all ease-in-out;
-    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.20);
 }
 
 .service-icon:hover {
-    transform: scale(1.5);
-}
-
-.service-icon-right {
-    align-items: flex-end;
-}
-
-.service-icon-left {
-    align-items: flex-start;
+    transform: scale(1.1);
 }
 
 .service-container {
@@ -61,29 +74,24 @@
 }
 
 .service-info {
-    padding: 20px;
     color: #a64242;
     font-weight: 400;
-    font-size: 50px;
-    text-align: right;
+    font-size: 20px;
 }
 
-.service-info-right {
-    text-align: left;
-}
-
-.service-info-left {
-    text-align: right;
-}
-
-.service-info-card {
-    /*border: 2px solid #a64242;*/
+.service-in-card {
+    height: 32%;
     background-color: #faeded;
+    padding: 1em;
     border-radius: 10px;
-    /*height: 100px;*/
+    cursor: pointer;
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.2);
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: 0.3s all ease-in-out;
+}
 
+.service-in-card:hover {
+    height: 42%;
 }

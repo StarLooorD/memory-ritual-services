@@ -135,11 +135,11 @@
 
 
 .navbar-logo:hover {
-    color: #faeded;
+    color: white;
 }
 
 .nav-item:hover {
-    color: #faeded;
+    color: white;
 }
 
 .navbar-nav {
@@ -160,4 +160,23 @@
     color: #a64242;
     background-color: #faeded;
     text-decoration: none;
+}
+
+.dropdown-menu {
+    border-radius: 10px;
+    border: 2px solid #a64242;
+    background-color: #faf7f7;
+}
+
+.dropdown-item {
+    font-size: 1.2em;
+    font-weight: 500;
+    color: #a64242;
+    background-color: #faf7f7;
+    /*box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.20);*/
+}
+
+.dropdown-item:hover {
+    background-color: #a64242;
+    color: #faeded;
 }
