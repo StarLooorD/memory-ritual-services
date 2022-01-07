@@ -115,3 +115,13 @@ hr {
     color: #faeded;
     background-color: #a64242;
 }
+
+.card-title {
+    color: #a64242;
+    font-size: 1.4em;
+}
+
+.card-text {
+    color: #a64242;
+    font-size: 1.1em;
+}

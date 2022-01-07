@@ -9,12 +9,26 @@
 }
 
 .carousel-caption {
+    margin: auto;
+    width: 34%;
     border-radius: 10px;
     color: #a64242;
     background-color: #faeded;
 }
 
 .carousel-caption-title {
-    font-size: 1.5em;
-    font-weight: 500;
+    font-size: 1.4em;
+    font-weight: 400;
+}
+
+.carousel-control-prev-icon {
+    background-color: #a64242;
+    border-radius: 10px;
+    height: 20%;
+}
+
+.carousel-control-next-icon {
+    background-color: #a64242;
+    border-radius: 10px;
+    height: 20%;
 }
