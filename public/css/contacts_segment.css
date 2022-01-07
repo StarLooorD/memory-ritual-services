@@ -1,15 +1,7 @@
 /*Contacts segment*/
 .contacts-segment {
-    margin: 2vh 0 10vh 0;
-    padding-top: 10vh;
-}
-
-.contacts-segment .title {
-    color: #a64242;
-    font-size: 50px;
-    font-weight: 500;
-    margin: 0 0 20px 0;
-    text-align: center;
+    margin: 0 0 10vh 0;
+    padding: 10vh 0 0 0;
 }
 
 .google-map-location {
