@@ -59,7 +59,7 @@ body {
 
 @media screen and (min-device-width: 769px) and (max-device-width: 1200px) {
     .welcome-segment {
-        height: 70vh;
+        height: 100vh;
     }
 
     .goods-segment-container {
@@ -78,7 +78,7 @@ body {
 
 @media screen and (min-device-width: 1201px) {
     .welcome-segment {
-        height: 70vh;
+        height: 100vh;
     }
 
     .goods-segment-container {
@@ -110,7 +110,6 @@ body {
     padding-top: 20vh;
     background: linear-gradient(to bottom, #F2D7D5, #faeded);
     /*background-color: #e8fdff;*/
-    height: 100vh;
 }
 
 .welcome-segment .title {
