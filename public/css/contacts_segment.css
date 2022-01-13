@@ -41,6 +41,18 @@
     display: inline-block;
 }
 
+.location-photo-card {
+    /*background-color: #faf7f7;*/
+    background-image: url("../photos/LocationPhoto.JPG");
+    margin: 2em 0 2em 0;
+    height: 60vh;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.2);
+    /*background-position: center;*/
+    background-size: cover;
+}
+
 .contact-number-1:hover, .contact-number-2:hover, .contact-email:hover {
     text-decoration: underline;
     color: #a64242;
