@@ -1,0 +1,37 @@
+/*About segment*/
+.about-segment {
+    margin: 0 0 10vh 0;
+    padding-top: 10vh;
+}
+
+.about-card {
+    background-color: #faf7f7;
+    padding: 3em;
+    border-radius: 10px;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.20);
+}
+
+.about-text {
+    font-size: 2em;
+    font-weight: 400;
+    color: #a64242;
+    margin: 0 0 1em 0;
+}
+
+.about-text-title, .about-text-content {
+    text-align: center;
+}
+
+.about-photos {
+    display: flex;
+    justify-content: center;
+}
+
+.about-photo {
+    width: 25%;
+    border-radius: 10px;
+    margin: 0 0.2em 0 0.2em;
+    height: auto;
+    display: inline-block;
+}
+

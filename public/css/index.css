@@ -43,6 +43,10 @@ body {
         visibility: hidden;
     }
 
+    .about-segment-container {
+        margin: 0 2em 0 2em;
+    }
+
     .goods-segment-container {
         margin: 0 2em 0 2em;
     }
@@ -60,6 +64,10 @@ body {
 @media screen and (min-device-width: 769px) and (max-device-width: 1200px) {
     .welcome-segment {
         height: 100vh;
+    }
+
+    .about-segment-container {
+        margin: 0 8em 0 8em;
     }
 
     .goods-segment-container {
@@ -81,6 +89,10 @@ body {
         height: 100vh;
     }
 
+    .about-segment-container {
+        margin: 0 10em 0 10em;
+    }
+
     .goods-segment-container {
         margin: 0 10em 0 10em;
     }
@@ -95,7 +107,7 @@ body {
 }
 
 
-.goods-segment .title, .services-segment .title, .contacts-segment .title {
+.about-segment .title, .goods-segment .title, .services-segment .title, .contacts-segment .title {
     color: #a64242;
     font-size: 2.5em;
     font-weight: 500;
