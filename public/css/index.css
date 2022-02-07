@@ -234,6 +234,30 @@ body {
     width: 20vw;
 }
 
+.phrases {
+    margin: 2em 0 0 0;
+    color: #a64242;
+    font-family: 'Marck Script', cursive;
+}
+
+.phrase-1, .phrase-2 {
+
+}
+
+.phrase-1 {
+    font-size: 2em;
+    bottom: 2em;
+    left: 2em;
+    text-align: center;
+}
+
+.phrase-2 {
+    font-size: 2em;
+    bottom: 2em;
+    right: 2em;
+    text-align: center;
+}
+
 
 
 /*!*About segment*!*/

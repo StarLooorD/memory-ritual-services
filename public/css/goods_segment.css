@@ -6,6 +6,14 @@
 
 .d-block {
     border-radius: 10px;
+    height: 75vh;
+}
+
+.carousel-item {
+    height: 75vh;
+    width: 100%;
+    background-size: cover;
+
 }
 
 .carousel-caption {
